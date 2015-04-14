@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D91755BB1ADD54E20058434A /* asv.xmv in Resources */ = {isa = PBXBuildFile; fileRef = D91755B71ADD54E20058434A /* asv.xmv */; };
+		D91755BC1ADD54E20058434A /* esv.atv in Resources */ = {isa = PBXBuildFile; fileRef = D91755B81ADD54E20058434A /* esv.atv */; };
+		D91755BD1ADD54E20058434A /* esvCrossrefs.atv in Resources */ = {isa = PBXBuildFile; fileRef = D91755B91ADD54E20058434A /* esvCrossrefs.atv */; };
+		D91755BE1ADD54E20058434A /* kjv.atv in Resources */ = {isa = PBXBuildFile; fileRef = D91755BA1ADD54E20058434A /* kjv.atv */; };
 		D95AC41C1ADCA79200F81380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC41B1ADCA79200F81380 /* main.m */; };
 		D95AC41F1ADCA79200F81380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC41E1ADCA79200F81380 /* AppDelegate.m */; };
-		D95AC4221ADCA79200F81380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4211ADCA79200F81380 /* ViewController.m */; };
 		D95AC4251ADCA79200F81380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95AC4231ADCA79200F81380 /* Main.storyboard */; };
 		D95AC4271ADCA79200F81380 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95AC4261ADCA79200F81380 /* Images.xcassets */; };
 		D95AC42A1ADCA79200F81380 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D95AC4281ADCA79200F81380 /* LaunchScreen.xib */; };
 		D95AC4361ADCA79200F81380 /* BibleReaderAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4351ADCA79200F81380 /* BibleReaderAppTests.m */; };
+		D95AC4411ADCA81A00F81380 /* BibleReaderAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4401ADCA81A00F81380 /* BibleReaderAppViewController.m */; };
+		D95AC4441ADCA88600F81380 /* ResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4431ADCA88600F81380 /* ResultsView.m */; };
+		D95AC4471ADCAA2A00F81380 /* BibleIO.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4461ADCAA2A00F81380 /* BibleIO.m */; };
+		D95AC44A1ADCAA6300F81380 /* Verse.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC4491ADCAA6300F81380 /* Verse.m */; };
+		D95AC44D1ADCAA7B00F81380 /* Reference.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC44C1ADCAA7B00F81380 /* Reference.m */; };
+		D95AC4501ADCAA9600F81380 /* BookOfBible.m in Sources */ = {isa = PBXBuildFile; fileRef = D95AC44F1ADCAA9600F81380 /* BookOfBible.m */; };
+		D97FD66B1ADD66BE000C5912 /* BibleReaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D97FD66A1ADD66BE000C5912 /* BibleReaderModel.m */; };
+		D9E1E9D61ADCD5C500B6D0FE /* VerseList.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E9D51ADCD5C500B6D0FE /* VerseList.m */; };
+		D9E1E9D91ADCD5FF00B6D0FE /* ReferenceList.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E9D81ADCD5FF00B6D0FE /* ReferenceList.m */; };
+		D9E1E9DE1ADCD7CF00B6D0FE /* DDFileReader.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E1E9DD1ADCD7CF00B6D0FE /* DDFileReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +40,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D91755B71ADD54E20058434A /* asv.xmv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = asv.xmv; sourceTree = "<group>"; };
+		D91755B81ADD54E20058434A /* esv.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = esv.atv; sourceTree = "<group>"; };
+		D91755B91ADD54E20058434A /* esvCrossrefs.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = esvCrossrefs.atv; sourceTree = "<group>"; };
+		D91755BA1ADD54E20058434A /* kjv.atv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kjv.atv; sourceTree = "<group>"; };
 		D95AC4161ADCA79200F81380 /* BibleReaderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BibleReaderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95AC41A1ADCA79200F81380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95AC41B1ADCA79200F81380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D95AC41D1ADCA79200F81380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D95AC41E1ADCA79200F81380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D95AC4201ADCA79200F81380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D95AC4211ADCA79200F81380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D95AC4241ADCA79200F81380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D95AC4261ADCA79200F81380 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D95AC4291ADCA79200F81380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D95AC42F1ADCA79200F81380 /* BibleReaderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BibleReaderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D95AC4341ADCA79200F81380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D95AC4351ADCA79200F81380 /* BibleReaderAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BibleReaderAppTests.m; sourceTree = "<group>"; };
+		D95AC43F1ADCA81A00F81380 /* BibleReaderAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BibleReaderAppViewController.h; sourceTree = "<group>"; };
+		D95AC4401ADCA81A00F81380 /* BibleReaderAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BibleReaderAppViewController.m; sourceTree = "<group>"; };
+		D95AC4421ADCA88600F81380 /* ResultsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsView.h; sourceTree = "<group>"; };
+		D95AC4431ADCA88600F81380 /* ResultsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsView.m; sourceTree = "<group>"; };
+		D95AC4451ADCAA2A00F81380 /* BibleIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BibleIO.h; sourceTree = "<group>"; };
+		D95AC4461ADCAA2A00F81380 /* BibleIO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BibleIO.m; sourceTree = "<group>"; };
+		D95AC4481ADCAA6300F81380 /* Verse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Verse.h; sourceTree = "<group>"; };
+		D95AC4491ADCAA6300F81380 /* Verse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Verse.m; sourceTree = "<group>"; };
+		D95AC44B1ADCAA7B00F81380 /* Reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reference.h; sourceTree = "<group>"; };
+		D95AC44C1ADCAA7B00F81380 /* Reference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reference.m; sourceTree = "<group>"; };
+		D95AC44E1ADCAA9600F81380 /* BookOfBible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookOfBible.h; sourceTree = "<group>"; };
+		D95AC44F1ADCAA9600F81380 /* BookOfBible.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookOfBible.m; sourceTree = "<group>"; };
+		D97FD6691ADD66BE000C5912 /* BibleReaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BibleReaderModel.h; sourceTree = "<group>"; };
+		D97FD66A1ADD66BE000C5912 /* BibleReaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BibleReaderModel.m; sourceTree = "<group>"; };
+		D97FD66C1ADD6767000C5912 /* Bible.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bible.h; sourceTree = "<group>"; };
+		D9E1E9D41ADCD5C500B6D0FE /* VerseList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerseList.h; sourceTree = "<group>"; };
+		D9E1E9D51ADCD5C500B6D0FE /* VerseList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerseList.m; sourceTree = "<group>"; };
+		D9E1E9D71ADCD5FF00B6D0FE /* ReferenceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReferenceList.h; sourceTree = "<group>"; };
+		D9E1E9D81ADCD5FF00B6D0FE /* ReferenceList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReferenceList.m; sourceTree = "<group>"; };
+		D9E1E9DC1ADCD7CF00B6D0FE /* DDFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileReader.h; sourceTree = "<group>"; };
+		D9E1E9DD1ADCD7CF00B6D0FE /* DDFileReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +96,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D91755BF1ADD54E50058434A /* Bible files */ = {
+			isa = PBXGroup;
+			children = (
+				D91755B71ADD54E20058434A /* asv.xmv */,
+				D91755B81ADD54E20058434A /* esv.atv */,
+				D91755B91ADD54E20058434A /* esvCrossrefs.atv */,
+				D91755BA1ADD54E20058434A /* kjv.atv */,
+			);
+			name = "Bible files";
+			sourceTree = "<group>";
+		};
 		D95AC40D1ADCA79200F81380 = {
 			isa = PBXGroup;
 			children = (
@@ -83,8 +130,22 @@
 			children = (
 				D95AC41D1ADCA79200F81380 /* AppDelegate.h */,
 				D95AC41E1ADCA79200F81380 /* AppDelegate.m */,
-				D95AC4201ADCA79200F81380 /* ViewController.h */,
-				D95AC4211ADCA79200F81380 /* ViewController.m */,
+				D91755BF1ADD54E50058434A /* Bible files */,
+				D9E1E9DB1ADCD7BF00B6D0FE /* IO */,
+				D95AC43F1ADCA81A00F81380 /* BibleReaderAppViewController.h */,
+				D95AC4401ADCA81A00F81380 /* BibleReaderAppViewController.m */,
+				D97FD6691ADD66BE000C5912 /* BibleReaderModel.h */,
+				D97FD66A1ADD66BE000C5912 /* BibleReaderModel.m */,
+				D97FD66C1ADD6767000C5912 /* Bible.h */,
+				D95AC4421ADCA88600F81380 /* ResultsView.h */,
+				D95AC4431ADCA88600F81380 /* ResultsView.m */,
+				D95AC4481ADCAA6300F81380 /* Verse.h */,
+				D95AC4491ADCAA6300F81380 /* Verse.m */,
+				D95AC44B1ADCAA7B00F81380 /* Reference.h */,
+				D95AC44C1ADCAA7B00F81380 /* Reference.m */,
+				D95AC44E1ADCAA9600F81380 /* BookOfBible.h */,
+				D95AC44F1ADCAA9600F81380 /* BookOfBible.m */,
+				D9E1E9DA1ADCD60400B6D0FE /* Lists */,
 				D95AC4231ADCA79200F81380 /* Main.storyboard */,
 				D95AC4261ADCA79200F81380 /* Images.xcassets */,
 				D95AC4281ADCA79200F81380 /* LaunchScreen.xib */,
@@ -119,6 +180,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9E1E9DA1ADCD60400B6D0FE /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1E9D41ADCD5C500B6D0FE /* VerseList.h */,
+				D9E1E9D51ADCD5C500B6D0FE /* VerseList.m */,
+				D9E1E9D71ADCD5FF00B6D0FE /* ReferenceList.h */,
+				D9E1E9D81ADCD5FF00B6D0FE /* ReferenceList.m */,
+			);
+			name = Lists;
+			sourceTree = "<group>";
+		};
+		D9E1E9DB1ADCD7BF00B6D0FE /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				D9E1E9DC1ADCD7CF00B6D0FE /* DDFileReader.h */,
+				D9E1E9DD1ADCD7CF00B6D0FE /* DDFileReader.m */,
+				D95AC4451ADCAA2A00F81380 /* BibleIO.h */,
+				D95AC4461ADCAA2A00F81380 /* BibleIO.m */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,6 +212,7 @@
 				D95AC4121ADCA79200F81380 /* Sources */,
 				D95AC4131ADCA79200F81380 /* Frameworks */,
 				D95AC4141ADCA79200F81380 /* Resources */,
+				67B1F36AB0F68560B36E33C7 /* Find unused imports */,
 			);
 			buildRules = (
 			);
@@ -199,9 +283,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D91755BE1ADD54E20058434A /* kjv.atv in Resources */,
 				D95AC4251ADCA79200F81380 /* Main.storyboard in Resources */,
 				D95AC42A1ADCA79200F81380 /* LaunchScreen.xib in Resources */,
+				D91755BC1ADD54E20058434A /* esv.atv in Resources */,
+				D91755BB1ADD54E20058434A /* asv.xmv in Resources */,
 				D95AC4271ADCA79200F81380 /* Images.xcassets in Resources */,
+				D91755BD1ADD54E20058434A /* esvCrossrefs.atv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,14 +302,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		67B1F36AB0F68560B36E33C7 /* Find unused imports */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Find unused imports";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh \"/Users/mattb/Library/Application Support/Developer/Shared/Xcode/Plug-ins/xcfui.xcplugin/Contents/Resources/fui_script.sh\" \"/Users/mattb/Desktop/IOSApps/BibleReaderApp\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D95AC4121ADCA79200F81380 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95AC4221ADCA79200F81380 /* ViewController.m in Sources */,
+				D9E1E9DE1ADCD7CF00B6D0FE /* DDFileReader.m in Sources */,
+				D95AC4471ADCAA2A00F81380 /* BibleIO.m in Sources */,
 				D95AC41F1ADCA79200F81380 /* AppDelegate.m in Sources */,
+				D95AC4441ADCA88600F81380 /* ResultsView.m in Sources */,
+				D9E1E9D61ADCD5C500B6D0FE /* VerseList.m in Sources */,
+				D95AC44A1ADCAA6300F81380 /* Verse.m in Sources */,
+				D95AC4411ADCA81A00F81380 /* BibleReaderAppViewController.m in Sources */,
+				D95AC44D1ADCAA7B00F81380 /* Reference.m in Sources */,
+				D9E1E9D91ADCD5FF00B6D0FE /* ReferenceList.m in Sources */,
+				D95AC4501ADCAA9600F81380 /* BookOfBible.m in Sources */,
 				D95AC41C1ADCA79200F81380 /* main.m in Sources */,
+				D97FD66B1ADD66BE000C5912 /* BibleReaderModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,7 +457,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				INFOPLIST_FILE = BibleReaderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -354,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BibleReaderApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +529,7 @@
 				D95AC43B1ADCA79200F81380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D95AC43C1ADCA79200F81380 /* Build configuration list for PBXNativeTarget "BibleReaderAppTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +538,7 @@
 				D95AC43E1ADCA79200F81380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
