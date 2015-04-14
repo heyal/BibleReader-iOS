@@ -72,4 +72,28 @@
     return [[ReferenceList alloc] initWithArray:references];
 }
 
+-(ReferenceList*)getPassageReferences:(Reference*)startVerse end:(Reference*)endVerse {
+    NSMutableArray *references = [[NSMutableArray alloc] init];
+    for (NSString *version in [bibles allKeys]) {
+        [references addObjectsFromArray:[[[bibles objectForKey:version] getReferencesInclusive:startVerse last:endVerse] allObjects]];
+    }
+    return [[ReferenceList alloc] initWithArray:references];
+}
+
+-(ReferenceList*)getBookReferences:(BookOfBible*)book {
+    NSMutableArray *references = [[NSMutableArray alloc] init];
+    for (NSString *version in [bibles allKeys]) {
+        [references addObjectsFromArray:[[[bibles objectForKey:version] getReferencesForBook:book] allObjects]];
+    }
+    return [[ReferenceList alloc] initWithArray:references];
+}
+
+-(ReferenceList*)getChapterReferences:(BookOfBible*)book chapter:(int)chapter {
+    NSMutableArray *references = [[NSMutableArray alloc] init];
+    for (NSString *version in [bibles allKeys]) {
+        [references addObjectsFromArray:[[[bibles objectForKey:version] getReferencesForChapter:book chapter:chapter] allObjects]];
+    }
+    return [[ReferenceList alloc] initWithArray:references];
+}
+
 @end
